@@ -1,0 +1,1 @@
+console.log("Stone, Paper and Scissors")
