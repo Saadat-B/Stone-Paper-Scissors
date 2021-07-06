@@ -56,8 +56,4 @@ const computerSelection = computerPlay();
 
 
 playRound(playerSelection, computerSelection)
-playRound(playerSelection, computerSelection)
-playRound(playerSelection, computerSelection)
-playRound(playerSelection, computerSelection)
-playRound(playerSelection, computerSelection)
     
