@@ -39,14 +39,14 @@ function playRound(playerSelection, computerSelection){
 
 
 
-    else if (playerSelection == "SCISSORS" && computerSelection == "PAPER"){
-        console.log("You Win! Scissors beats Paper")
+    else if (playerSelection == "ROCK" && computerSelection == "PAPER"){
+        console.log("You Lose! Paper beats Rock")
     }
-    else if (playerSelection == "SCISSORS" && computerSelection == "PAPER"){
-        console.log("You Win! Scissors beats Paper")
+    else if (playerSelection == "PAPER" && computerSelection == "SCISSORS"){
+        console.log("You Lose! Scissors beats Paper")
     }
-    else if (playerSelection == "SCISSORS" && computerSelection == "PAPER"){
-        console.log("You Win! Scissors beats Paper")
+    else if (playerSelection == "SCISSORS" && computerSelection == "ROCK"){
+        console.log("You Lose! Rock beats Scissors")
     }
     
 }
@@ -55,5 +55,9 @@ const playerSelection = playerPlay();
 const computerSelection = computerPlay();
 
 
+playRound(playerSelection, computerSelection)
+playRound(playerSelection, computerSelection)
+playRound(playerSelection, computerSelection)
+playRound(playerSelection, computerSelection)
 playRound(playerSelection, computerSelection)
     
