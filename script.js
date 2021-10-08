@@ -19,7 +19,6 @@ function computerPlay(){
     return choice;
 }
 function playerPlay(){
-    // const choice2 = prompt().toUpperCase();
     if(choice2 !== "ROCK" && choice2 !== "PAPER" && choice2 !== "SCISSORS"){
       console.log(choice2);
       console.error('Oops wrong Input....choose wisely');
